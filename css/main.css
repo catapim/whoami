@@ -7,7 +7,10 @@ body {
 	font-size: 20px;
 }
 h1 {
-	font-size: 27px;
+	font-size: 26px;
+}
+h2 {
+	font-size: 22px;
 }
 a {
 	color: #fff1e6;
@@ -58,14 +61,18 @@ footer {
 	color: rgba(0, 0, 0, 0.267);
 }
 #presentation {
-	text-align: center;
+	text-align: left;
 }
+
 #header img {
     width: 100%;
     height: auto;
     border-radius: 100%;
     max-width: 200px;
     max-height: 200px;    
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 #company-type li::before {
 	content: "✅";
@@ -97,17 +104,18 @@ footer {
         display: flex;
     }
     #header h2 {
-        width: 100%;
-        font-size: 28px;
+		padding-top:20px;
+
     }
+	#header img {
+		padding-left:10px;
+	}
 }
 @media (min-width: 991px) {
     .content {
 		width: 630px;
 	}
-    #header h2 {
-        padding-top:20px;
-    }
+	
 }
 @media (min-width: 1199px) {
 	.content {
