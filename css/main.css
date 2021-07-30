@@ -21,7 +21,8 @@ ul {
 
 li {
 	list-style: none;
-    line-height: 2;
+    line-height: 1.5;
+	padding:15px 0px 15px 0px;
 }
 span {
 	background-color: #33c6dd;
@@ -97,6 +98,12 @@ footer {
 	}
 }
 @media (min-width: 768px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
 	.content {
 		width: 500px;
 	}
