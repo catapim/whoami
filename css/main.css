@@ -7,7 +7,7 @@ body {
 	font-size: 20px;
 }
 h1 {
-	font-size: 26px;
+	font-size: 25px;
 }
 h2 {
 	font-size: 22px;
@@ -34,10 +34,10 @@ span {
 }
 footer {
 	background-color: darkslategray;
-	color: #ffffff;
-	font-weight: 100;
+	color: #ffffffcb;
+	/* font-weight: 300; */
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 	font-size: 15px;
 }
 .container {
@@ -63,6 +63,10 @@ footer {
 }
 #presentation {
 	text-align: left;
+}
+#presentation h1 {
+	font-size: 32px;
+	letter-spacing: -1px;
 }
 
 #header img {
@@ -99,10 +103,10 @@ footer {
 }
 @media (min-width: 768px) {
 	h1 {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	h2 {
-		font-size: 25px;
+		font-size: 24px;
 	}
 	.content {
 		width: 500px;
@@ -116,6 +120,9 @@ footer {
     }
 	#header img {
 		padding-left:10px;
+	}
+	#presentation h1 {
+		font-size: 40px;
 	}
 }
 @media (min-width: 991px) {
