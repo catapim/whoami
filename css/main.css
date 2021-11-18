@@ -82,6 +82,9 @@ footer {
 #company-type li::before {
 	content: "✅";
 }
+#purpose a {
+	color: #06b0ca;
+}
 #interests {
 	background-color: #fff1e6;
 }
