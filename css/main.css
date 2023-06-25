@@ -43,7 +43,6 @@ footer {
 .container {
   width: 100%;
 }
-
 .content {
   margin: 0 auto;
   padding: 25px;
@@ -51,9 +50,6 @@ footer {
 }
 #about {
   background-color: #fff1e6;
-}
-#about a {
-  color: #33c6dd;
 }
 #games li {
   line-height: 1;
@@ -68,7 +64,6 @@ footer {
   font-size: 32px;
   letter-spacing: -1px;
 }
-
 #header img {
   width: 100%;
   height: auto;
@@ -82,7 +77,7 @@ footer {
 #company-type li::before {
   content: "✅";
 }
-#purpose a {
+#purpose a, #about a {
   color: #06b0ca;
 }
 #interests {
