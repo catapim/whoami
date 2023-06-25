@@ -1,141 +1,140 @@
 body {
-	font-family: sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #ffcccc;
-	font-family: 'Poppins', sans-serif;
-	font-size: 20px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffcccc;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 h1 {
-	font-size: 25px;
+  font-size: 25px;
 }
 h2 {
-	font-size: 22px;
+  font-size: 22px;
 }
 a {
-	color: #fff1e6;
+  color: #fff1e6;
 }
 ul {
-	padding: 0;
+  padding: 0;
 }
 
 li {
-	list-style: none;
-    line-height: 1.5;
-	padding:15px 0px 15px 0px;
+  list-style: none;
+  line-height: 1.5;
+  padding: 15px 0px 15px 0px;
 }
 span {
-	background-color: #33c6dd;
-	padding: 10px;
-	margin-top: 10px;
-	border-radius: 25px;
-	display: inline-flex;
-	color: white;
+  background-color: #33c6dd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+  display: inline-flex;
+  color: white;
 }
 footer {
-	background-color: darkslategray;
-	color: #ffffffcb;
-	/* font-weight: 300; */
-	text-align: center;
-	padding: 20px;
-	font-size: 15px;
+  background-color: darkslategray;
+  color: #ffffffcb;
+  /* font-weight: 300; */
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
 }
 .container {
-	width: 100%;
+  width: 100%;
 }
 
 .content {
-	margin: 0 auto;
-	padding: 25px;
-	width: 300px;
+  margin: 0 auto;
+  padding: 25px;
+  width: 300px;
 }
 #about {
-	background-color: #fff1e6;
+  background-color: #fff1e6;
 }
 #about a {
-	color: #33c6dd;
+  color: #33c6dd;
 }
 #games li {
-    line-height: 1;
+  line-height: 1;
 }
 #about li p {
-	color: rgba(0, 0, 0, 0.267);
+  color: rgba(0, 0, 0, 0.267);
 }
 #presentation {
-	text-align: left;
+  text-align: left;
 }
 #presentation h1 {
-	font-size: 32px;
-	letter-spacing: -1px;
+  font-size: 32px;
+  letter-spacing: -1px;
 }
 
 #header img {
-    width: 100%;
-    height: auto;
-    border-radius: 100%;
-    max-width: 200px;
-    max-height: 200px;    
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #company-type li::before {
-	content: "✅";
+  content: "✅";
 }
 #purpose a {
-	color: #06b0ca;
+  color: #06b0ca;
 }
 #interests {
-	background-color: #fff1e6;
+  background-color: #fff1e6;
 }
 #contact {
-	background-color: #bee1e6;
+  background-color: #bee1e6;
 }
 #contact ul {
-	padding: 0;
-	display: flex;
-	align-items: flex-end;
+  padding: 0;
+  display: flex;
+  text-align: center;
 }
 #contact li {
-	width: 100%;
+  align-items: center;
+  width: 100%;
 }
 @media (min-width: 575px) {
-	.content {
-		width: 400px;
-	}
+  .content {
+    width: 400px;
+  }
 }
 @media (min-width: 768px) {
-	h1 {
-		font-size: 26px;
-	}
-	h2 {
-		font-size: 24px;
-	}
-	.content {
-		width: 500px;
-	}
-    #header {
-        display: flex;
-    }
-    #header h2 {
-		padding-top:20px;
-
-    }
-	#header img {
-		padding-left:10px;
-	}
-	#presentation h1 {
-		font-size: 40px;
-	}
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .content {
+    width: 500px;
+  }
+  #header {
+    display: flex;
+  }
+  #header h2 {
+    padding-top: 20px;
+  }
+  #header img {
+    padding-left: 10px;
+  }
+  #presentation h1 {
+    font-size: 40px;
+  }
 }
 @media (min-width: 991px) {
-    .content {
-		width: 630px;
-	}
-	
+  .content {
+    width: 630px;
+  }
 }
 @media (min-width: 1199px) {
-	.content {
-		width: 730px;
-	}
+  .content {
+    width: 730px;
+  }
 }
